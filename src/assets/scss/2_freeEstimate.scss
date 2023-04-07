@@ -1,0 +1,28 @@
+.freeEstimate {
+    position: relative;
+}
+.freeEstimate__box {
+    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.15);
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #fff;
+    margin: -80px 0 0 0;
+    border-radius: 5px;
+}
+.freeEstimate__title {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #072C50;
+    font-weight: 600;
+    font-size: clamp(24px,5vw,38px);
+    line-height: clamp(24px,5vw,38px);
+}
+.freeEstimate__btnWrap {
+}
+.freeEstimate__btn {
+    @include btn;
+}
