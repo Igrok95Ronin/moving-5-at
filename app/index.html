@@ -39,7 +39,7 @@ $title = $text . ' ' . $city;
                                 </span>
                             </h1>
                             <p class="header__txt">Convallis placerat purus massa dui malesuada felis ut lobortis leo senectus. Luctus habitant arcu justo pharetra suspendisse dis.</p>
-                            <a class="header__btn" href="#" >DISCOVER MORE</a>
+                            <a class="header__btn" href="#anchor" >DISCOVER MORE</a>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ $title = $text . ' ' . $city;
                         <div class="freeEstimate__box">
                             <h2 class="freeEstimate__title">Get Your Free Moving <br> Estimate Here</h2>
                             <div class="freeEstimate__btnWrap">
-                                <a class="freeEstimate__btn" href="#" >DISCOVER MORE</a>
+                                <a class="freeEstimate__btn" href="#anchor" >DISCOVER MORE</a>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ $title = $text . ' ' . $city;
                                     </div>
                                 </div>
                                 <div class="leaders__btnWrp">
-                                    <a class="leaders__btn" href="#" >DISCOVER MORE</a>
+                                    <a class="leaders__btn" href="#anchor" >DISCOVER MORE</a>
                                 </div>
                             </div>
                         </div>
@@ -196,7 +196,7 @@ $title = $text . ' ' . $city;
                             <h3 class="contactUs__middleTitle">Get A Discount Of Up To 50% For Orders This Month!</h3>
                             <p class="contactUs__dscr">Nec lectus et integer convallis potenti si suscipit neque etiam. At ad convallis sociosqu tempus bibendum elementum si. Auctor nec hendrerit facilisi duis tincidunt lorem lobortis tristique eu leo donec. Mattis ac ante suspendisse mi amet.</p>
                             <div class="contactUs__btnW">
-                                <a class="contactUs__btnMessage" href="#" >GET A QUOTE</a>
+                                <a class="contactUs__btnMessage" href="#anchor" >GET A QUOTE</a>
                                 <a class="contactUs__btnTel" href="#" >CONTACT US</a>
                             </div>
                         </div>
@@ -300,7 +300,7 @@ $title = $text . ' ' . $city;
                             <div class="movingPlan__left">
                                 <h2 class="movingPlan__title">Have A Plan To Move?</h2>
                                 <p class="movingPlan__dscr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                <a class="movingPlan__btn" href="#" >GET A QUOTE</a>
+                                <a class="movingPlan__btn" href="#anchor" >GET A QUOTE</a>
                             </div>
                             <div class="movingPlan__right">
                                 <div class="movingPlan__imgWrap">
@@ -311,6 +311,49 @@ $title = $text . ' ' . $city;
                     </div>
                 </div>
             </div>
+        </section>
+        <section class='forms' id="anchor">
+           <div class='forms__wrapper'>
+              <div class='container-fluid'>
+                 <div class='row'>
+                    <div class='col-12 container'>
+                       <div class='forms__box'>
+                          <h2 class='forms__title'>Kontaktieren Sie uns:</h2>
+                          <form id='jq_form' class='mb-0 mt-3'>
+                             <div class='my-0'>
+                                <input class='form-control' placeholder='Name' name='jq_name' type='text'>
+                                <div id='jq_name' style='font-weight:700;font-size:15px;color:red;padding-top:2px;display:none'>Dies ist ein Pflichtfeld.</div>
+                             </div>
+                             <div class='my-4'>
+                                <input class='form-control' placeholder='Telefonnummer' name='jq_phone' type='text'>
+                                <div id='jq_phone' style='font-weight:700;font-size:15px;color:red;padding-top:2px;display:none'>Dies ist ein Pflichtfeld.</div>
+                             </div>
+                             <div class='my-4'>
+                                <input class='form-control' placeholder='Straße' name='jq_street' type='text'>
+                                <div id='jq_street' style='font-weight:700;font-size:15px;color:red;padding-top:2px;display:none'>Dies ist ein Pflichtfeld.</div>
+                             </div>
+                             <div class='my-4'>
+                                <input class='form-control' placeholder='Postleitzahl/Stadt' name='jq_city' type='text'>
+                                <div id='jq_city' style='font-weight:700;font-size:15px;color:red;padding-top:2px;display:none'>Dies ist ein Pflichtfeld.</div>
+                             </div>
+                             <div class='my-4'>
+                                <input class='form-control' placeholder='E-mail' name='jq_email' type='text'>
+                                <div id='jq_email' style='font-weight:700;font-size:15px;color:red;padding-top:2px;display:none'>Dies ist ein Pflichtfeld.</div>
+                             </div>
+                             <div class='my-4'>
+                                <textarea rows='5' class='form-control' name='jq_text' placeholder='Beschreibung'></textarea>
+                                <div id='jq_text' style='font-weight:700;font-size:15px;color:red;padding-top:2px;display:none'>Dies ist ein Pflichtfeld.</div>
+                             </div>
+                             <div>
+                                <input class='btn  text-uppercase fw-bold mb-0 px-3 py-2 forms__button' type='submit' id='jq_submit' value='Senden'>
+                             </div>
+                             <div id='jq_success' style='display:none'>Vielen Dank für Ihre Anfrage. Unsere Mitarbeiter werden sich in Kürze bei Ihnen melden.</div>
+                          </form>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
         </section>
     </main>
     <!--Нижний колонтитул страницы-->
