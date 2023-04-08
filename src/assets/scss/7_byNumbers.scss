@@ -1,0 +1,40 @@
+.byNumbers {
+    color: #fff;
+    background-image: linear-gradient(270deg, $mainColor 50%, $h2Color 50%);
+}
+.byNumbers__box {
+    display: grid;
+    grid-template-columns: .4fr 1fr;
+}
+.byNumbers__left {
+    background-color: $h2Color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.byNumbers__title {
+    font-size: 38px;
+    font-weight: 600;
+    margin: 0;
+
+}
+.byNumbers__right {
+    background-color: transparent;
+    background-image: linear-gradient(250deg, $mainColor 92%, $h2Color 92%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 40px 0 32px 80px;
+}
+.byNumbers__inner {
+}
+.byNumbers__num {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+}
+.byNumbers__dscr {
+    margin: 0;
+    font-size: 19px;
+    text-align: center;
+}
