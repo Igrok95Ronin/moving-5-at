@@ -18,8 +18,9 @@
     align-items: center;
     color: $h2Color;
     font-weight: 600;
-    font-size: clamp(24px,5vw,38px);
-    line-height: clamp(24px,5vw,38px);
+    font-size: clamp(24px,4vw,38px);
+    line-height: clamp(24px,4vw,38px);
+    max-width: 400px
 }
 .freeEstimate__btnWrap {
 }
